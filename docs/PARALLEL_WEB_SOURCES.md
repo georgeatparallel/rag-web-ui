@@ -81,10 +81,13 @@ to see whether they remain together.
 
 1. Open or create a knowledge base in RAG Web UI, then select **Add Document**.
 2. Select your `.md` file and choose **Upload Files**.
-3. In the preview step, choose the document and select **Preview Chunks**. Check
-   that the text, source URLs, and dates are present. Adjust chunk size or overlap
-   if important context has been separated.
-4. Select **Process** and wait for processing to complete successfully.
+3. In the preview step, keep the default chunk settings, choose the document,
+   and select **Preview Chunks**. Check that the text, source URLs, and dates are
+   present. The preview's chunk settings do not change final processing. If
+   important context is separated, shorten or split your notes and upload the
+   revised file.
+4. Select **Continue**, then **Process**, and wait for processing to complete
+   successfully.
 5. From the knowledge-base list, open the retrieval test using that knowledge
    base's search icon. Ask a question whose answer appears in your notes and
    inspect the returned chunks. If the expected text is absent, check processing
